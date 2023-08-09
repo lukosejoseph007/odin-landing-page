@@ -1,0 +1,119 @@
+/****
+*
+*
+*
+-------------------------- COLORS AND FONTS STYLING --------------------------
+*
+*
+*
+****/
+
+:root {
+  --darkblue: #1f2937; /* Dark Background Color, info header text, quote text */
+  --nearlygray: #e5e7eb; /* Hero Secondary Text, Header Link Text, quote section background */
+  --nearlywhite: #f9faf8; /* Header Logo Text */
+  --brightblue: #3882f6; /* Button color, CTA background color */
+  --darkgray: #8c929a;
+}
+
+html * {
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+ul.navbar,
+h1,
+p,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+.header,
+.hero,
+.footer {
+  background-color: var(--darkblue);
+}
+
+.quote {
+  background-color: var(--nearlygray);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--nearlywhite);
+}
+
+.header-link a,
+.hero-content p {
+  font-size: 18px;
+  color: var(--nearlygray);
+}
+
+.header-logo a {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--nearlywhite);
+}
+
+.hero-image p {
+  background-color: var(--darkgray);
+}
+
+a.std-btn,
+.cta-section,
+a.cta-box-btn {
+  background-color: var(--brightblue);
+  color: var(--nearlywhite);
+}
+
+.card-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--darkblue);
+}
+
+.card p {
+  color: var(--darkgray);
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--darkblue);
+}
+
+p.quote-author,
+h3.cta-head {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer p {
+  color: var(--nearlywhite);
+}
+
+/****
+*
+*
+*
+--------------------------LAYOUT STYLING ------------------------------------
+*
+*
+*
+****/
