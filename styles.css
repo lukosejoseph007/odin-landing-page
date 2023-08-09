@@ -54,24 +54,33 @@ p {
 
 h1 {
   font-size: 48px;
-  font-weight: 900;
+  line-height: 48px;
+  padding-bottom: 1rem;
+  font-weight: 700;
   color: var(--nearlywhite);
 }
 
 .header-link a,
 .hero-content p {
   font-size: 18px;
+  font-weight: 200;
   color: var(--nearlygray);
+}
+
+.hero-content p {
+  padding-bottom: 1rem;
 }
 
 .header-logo a {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 900;
   color: var(--nearlywhite);
 }
 
 .hero-image p {
   background-color: var(--darkgray);
+  color: var(--nearlygray);
+  font-weight: 300;
 }
 
 a.std-btn,
@@ -83,7 +92,7 @@ a.cta-box-btn {
 
 .card-section h2 {
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 700;
   color: var(--darkblue);
 }
 
@@ -117,3 +126,48 @@ h3.cta-head {
 *
 *
 ****/
+ul.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem 10%;
+}
+
+.header-link.one {
+  margin-left: auto;
+}
+
+.header-link {
+  display: flex;
+  padding-left: 16px;
+}
+
+.hero {
+  height: 60vh;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 1;
+  height: 30vh;
+  display: flex;
+}
+
+.hero-image p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.std-btn {
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-weight: 500;
+}
