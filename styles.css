@@ -90,6 +90,15 @@ a.cta-box-btn {
   color: var(--nearlywhite);
 }
 
+.cta-box-text p {
+  font-weight: 300;
+  color: var(--nearlygray);
+}
+
+.cta-box-text h3 {
+  color: var(--nearlywhite);
+}
+
 .card-section h2 {
   font-size: 36px;
   font-weight: 700;
@@ -121,7 +130,7 @@ h3.cta-head {
 *
 *
 *
---------------------------LAYOUT STYLING ------------------------------------
+--------------------------LAYOUT STYLING - HEADER--------------------------------
 *
 *
 *
@@ -138,8 +147,24 @@ ul.navbar {
 
 .header-link {
   display: flex;
-  padding-left: 16px;
+  margin-left: 16px;
+  gap: 10px;
 }
+
+.header-link a:hover {
+  color: var(--brightblue);
+  font-weight: 500;
+}
+
+/****
+*
+*
+*
+--------------------------LAYOUT STYLING - HERO--------------------------------
+*
+*
+*
+****/
 
 .hero {
   height: 60vh;
@@ -170,4 +195,140 @@ ul.navbar {
   padding: 5px 30px;
   border-radius: 10px;
   font-weight: 500;
+}
+
+.std-btn:hover {
+  background-color: var(--nearlygray);
+  color: var(--brightblue);
+}
+
+/****
+*
+*
+*
+-----------------------LAYOUT STYLING - CARD SECTION-----------------------------
+*
+*
+*
+****/
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-section h2 {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.card-image {
+  height: 150px;
+  border: 0.25rem solid var(--brightblue);
+  border-radius: 20px;
+  width: 150px;
+  display: flex;
+}
+
+.card-list {
+  display: flex;
+  width: 60%;
+  gap: 2rem;
+  text-align: center;
+  justify-content: center;
+  padding: 0 8rem 8rem 8rem;
+}
+
+/****
+*
+*
+*
+----------------------LAYOUT STYLING - QUOTE SECTION-----------------------------
+*
+*
+*
+****/
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.quote-text {
+  display: flex;
+  flex: 1;
+  width: 60%;
+  justify-content: center;
+}
+
+.quote-author {
+  display: flex;
+  flex: 1;
+  width: 60%;
+  justify-content: flex-end;
+}
+
+/****
+*
+*
+*
+----------------------LAYOUT STYLING - CTA SECTION-----------------------------
+*
+*
+*
+****/
+
+.cta-section {
+  margin: 100px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cta-box {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  width: 60vw;
+  justify-content: space-between;
+}
+
+.cta-box-btn {
+  padding: 5px 30px;
+  margin: 0 auto;
+  font-weight: 500;
+  border: 2px solid var(--nearlywhite);
+  border-radius: 10px;
+}
+
+.cta-box-btn:hover {
+  background-color: var(--nearlygray);
+  color: var(--brightblue);
+}
+
+/****
+*
+*
+*
+----------------------LAYOUT STYLING - FOOTER SECTION----------------------------
+*
+*
+*
+****/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
